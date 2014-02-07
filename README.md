@@ -13,20 +13,19 @@ https://thedaywefightback.org
 
 Plugin based on https://github.com/tfrce/thedaywefightback.js
 
+Installing:
 To install upload folder tdwfb to your WordPress plugins folder and activate.
 
 Visit Settings > TDWFB and choose options. The banner is meant to be displayed on the date of the event. Leave Display date unchecked and the banner will display at midnight on 2/11 and last for 24 hours. To test the banner check Display date option and visit the front of your site. 
 
 Options:
-
 - Custom Greeting text
 - Display banner before date 2/11
 - Display only call form
 
 Demo:
-
 http://tfrce.github.io/thedaywefightback.js/example/banner.html
 
 
-issues: 
+Issues: 
 If you activate plugin and banner isn't showing check the Disable date option. You may need to delete your cache if running a cache plugin. 
