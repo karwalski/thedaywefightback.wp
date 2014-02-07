@@ -18,7 +18,7 @@ Upload `tdwfb.zip` to your WordPress plugins folder, unpack it into its own fold
 
 ### On the sidbar
 
-![images/dashboard-sidebar.png]
+![Dashboard sidebar](images/dashboard-sidebar.png)
 
 ... find the Plugins and go to the ...
 
@@ -26,21 +26,21 @@ Upload `tdwfb.zip` to your WordPress plugins folder, unpack it into its own fold
 
 ... where you find the plugin as "The Day We Fight Back" and click the Activate link below the plugin name
 
-![images/dashboard-plugin-list-before-installation.png]
+![Dashboard plugin list before activation of plugin](images/dashboard-plugin-list-before-installation.png)
 
 ... and see this after activation:
 
-![images/dashboard-plugin-list-post-installation.png]
+![Dashboard plugin list entry after activation](images/dashboard-plugin-list-post-installation.png)
 
 ## Configuration settings
 
 In the sidebar of the dashboard find the "Settings" item and expand it by clicking once. If you successfully installed this plugin you should see it on the expanded list like so:
 
-![images/dashboard-sidebar-tdwfb-settings.png]
+![Find the plugin settings in the dashboard sidebar](images/dashboard-sidebar-tdwfb-settings.png)
 
 Follow the link labeled "TDWFB" to get to the settings screen:
 
-![images/tdwfb-settings.png]
+![The actual plugin settings screen](images/tdwfb-settings.png)
 
 ### Remakrs
 
