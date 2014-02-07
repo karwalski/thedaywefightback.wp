@@ -25,7 +25,7 @@ Options:
 
 Demo:
 
-http://modemlooper.me
+http://tfrce.github.io/thedaywefightback.js/example/banner.html
 
 
 issues: 
