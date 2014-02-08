@@ -42,7 +42,7 @@ Follow the link labeled "TDWFB" to get to the settings screen:
 
 ![The actual plugin settings screen](images/tdwfb-settings.png)
 
-### Remakrs
+### Remarks
 
 The banner is meant to be displayed on the date of the event. Leave Display date unchecked and the banner will display at midnight on 2/11 and last for 24 hours. To test the banner check Display date option and visit the front of your site. 
 
