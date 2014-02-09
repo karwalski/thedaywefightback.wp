@@ -36,6 +36,7 @@ function tdwfb_footer_script() {
 	$greeting = addslashes(html_entity_decode($greeting, ENT_QUOTES));
 	$date = !empty( $tdwfb_options['date'] ) ? true : false;
 	$call = !empty( $tdwfb_options['call'] ) ? true : false;
+	$inter = !empty( $tdwfb_options['inter'] ) ? true : false;
 
 ?>
 	<!--[if !(lte IE 8)]><!-->
@@ -45,6 +46,7 @@ function tdwfb_footer_script() {
 		 greeting: '<?php echo $greeting;  ?>', // Sets the salutation at the top left
 		 disableDate: <?php echo json_encode($date); ?>, // If true, the banner shows even if the date is not yet 02/11/2014
 		 callOnly: <?php echo json_encode($call); ?> // If true, the banner only displays a form for calling congress
+		 overrideLocation: <?php if ($inter = true) { echo 'international'; } else { echo 'usa'; } ?> // Can be either "usa", "international", or none (default)
 	  };
 	  (function(){
 		 var e = document.createElement('script'); e.type='text/javascript'; e.async = true;
