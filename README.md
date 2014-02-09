@@ -1,5 +1,7 @@
 ---
 This fork was created for an additional option to select 'NOT IN THE USA?' by default, for websites with most of their traffic from outside of US (and no geo-location trackers).
+
+![New options screen with international tickbox](images/daywefightback_options_screenshot.png)
 ---
 
 
