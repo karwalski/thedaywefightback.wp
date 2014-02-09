@@ -44,9 +44,9 @@ function tdwfb_footer_script() {
 	  // The defaults are set below
 	  var tdwfb_config = {
 		 greeting: '<?php echo $greeting;  ?>', // Sets the salutation at the top left
-		 disableDate: <?php echo json_encode($date); ?>, // If true, the banner shows even if the date is not yet 02/11/2014
-		 callOnly: <?php echo json_encode($call); ?> // If true, the banner only displays a form for calling congress
-		 overrideLocation: <?php if ($inter = true) { echo 'international'; } else { echo 'usa'; } ?> // Can be either "usa", "international", or none (default)
+		 disableDate: '<?php echo json_encode($date) ; ?>', // If true, the banner shows even if the date is not yet 02/11/2014
+		 callOnly: '<?php echo json_encode($call) ; ?>', // If true, the banner only displays a form for calling congress
+		 overrideLocation: '<?php if ($inter = true) { echo 'international'; } else { echo 'usa'; } ?>' // Can be either "usa", "international", or none (default)
 	  };
 	  (function(){
 		 var e = document.createElement('script'); e.type='text/javascript'; e.async = true;
