@@ -1,3 +1,8 @@
+---
+This fork was created for an additional option to select 'NOT IN THE USA?' by default, for websites with most of their traffic from outside of US (and no geo-location trackers).
+---
+
+
 DEAR USERS OF THE INTERNET,
 
 In January 2012 we defeated the SOPA and PIPA censorship legislation with the largest Internet protest in history. Today we face another critical threat, one that again undermines the Internet and the notion that any of us live in a genuinely free society: mass surveillance.
