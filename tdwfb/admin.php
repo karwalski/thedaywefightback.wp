@@ -32,6 +32,7 @@ function tdwfb_plugin_admin_init() {
 	add_settings_field('greeting', 'Greeting Text', 'tdwfb_setting_greeting', __FILE__, 'general_section');
 	add_settings_field('date', 'Disable Date', 'tdwfb_setting_date', __FILE__, 'general_section');
 	add_settings_field('call', 'Call Form', 'tdwfb_setting_call', __FILE__, 'general_section');
+	add_settings_field('inter', 'International Site', 'tdwfb_setting_inter', __FILE__, 'general_section');
 
 }
 add_action('admin_init', 'tdwfb_plugin_admin_init');
@@ -134,5 +135,22 @@ function tdwfb_setting_call() {
 	if( !empty( $tdwfb_options['call']) ) { $checked = ' checked="checked" '; }
 	echo "<input ".$checked." id='call' name='tdwfb_plugin_options[call]' type='checkbox' />  ";
 	_e('Only display a form for calling congress. Removes email form.', 'tdwfb');
+
+}
+
+
+/**
+ * tdwfb_setting_inter function.
+ * 
+ * @access public
+ * @return void
+ */
+function tdwfb_setting_inter() {
+	global $tdwfb_options;
+	$checked = '';
+
+	if( !empty( $tdwfb_options['inter']) ) { $checked = ' checked="checked" '; }
+	echo "<input ".$checked." id='inter' name='tdwfb_plugin_options[inter]' type='checkbox' />  ";
+	_e('Shows the International NOT IN THE USA? page by default. User can click for USA option', 'tdwfb');
 
 }
